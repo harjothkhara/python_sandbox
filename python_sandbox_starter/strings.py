@@ -54,10 +54,10 @@ s = 'hello world'
 # print(s.find('r')) # 8
 
 # Is all alphanumeric - return true or false if all values are alphanumeric
-# print(s.isalnum())  # false
+# print(s.isalnum())  # false b/c of space in string otherwise true
 
 # Is all alphabetic - return true or false if all values alphabetic
-# print(s.isalpha()) # false
+# print(s.isalpha()) # false b/c of space in string otherwise true
 
 # Is all numeric - return true or false if all values numeric
 # print(s.isnumeric())  # false
