@@ -37,10 +37,13 @@ fruits_set.add('Grape')
 # Remove from set
 fruits_set.remove('Grape')
 
+# Add duplicate - no error it just doesn't add Apples twice
+fruits_set.add('Apples')
+
 # Clear set
-fruits_set.clear()
+# fruits_set.clear()
 
 # Delete - same as not defining it
-del fruits_set
+#del fruits_set
 
 print(fruits_set)  # NameError: name 'fruits_set' is not defined
